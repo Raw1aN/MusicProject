@@ -1,0 +1,92 @@
+.login-password-entry {
+    position: fixed;
+    top: 140px;
+    left: 45%;
+}
+.login-password-buttons {
+    border: 1px solid;
+    position: relative;
+    margin-top: 15px;
+    right: 31%;
+    width: 380px;
+    height: 200px;
+    background-color: #FFFF64;
+}
+.authorize-button {
+    position: relative;
+    margin-top: 15px;
+    border: 1px solid;
+    right: 31%;
+    width: 380px;
+    height: 40px;
+    background-color: #FFFF64;
+}
+.authorize-button p {
+    color: #121212;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'San Francisco';
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.authorize-button p a {
+    color: #2BB6F6;
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'San Francisco';
+}
+.login-password-buttons-login-input {
+    position: relative;
+    top: 0px;
+}
+#login-input {
+    position: relative;
+    width: 360px;
+    margin-left: 10px;
+}
+.login-password-buttons-login-input p {
+    position: relative;
+    font-family: 'San Francisco';
+    font-size: 16px;
+    font-weight: bold;
+    top: 15px;
+    margin-left: 10px;
+}
+.login-password-buttons-password-input {
+    position: relative;
+    top: 0px;
+}
+#password-input {
+    position: relative;
+    width: 360px;
+    margin-left: 10px;
+}
+.login-password-buttons-password-input  p {
+    position: relative;
+    font-family: 'San Francisco';
+    font-size: 16px;
+    font-weight: bold;
+    top: 15px;
+    margin-left: 10px;
+}
+.submit-and-forgot {
+    position: relative;
+    top: 15px;
+    margin-left: 10px;
+}
+#login-button {
+    background-color: white;
+    border: 1px solid;
+    width: 60px;
+}
+.submit-and-forgot a {
+    text-decoration: none;
+    position: relative;
+    margin-left: 140px;
+    color: #2BB6F6;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'San Francisco';
+}

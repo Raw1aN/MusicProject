@@ -1,0 +1,30 @@
+@page
+@model MusicAppProject.Views.Authorization.Authorization
+
+@{
+    Layout = "../Shared/_MajorLayout.cshtml";
+}
+
+
+<div class="login-password-entry">
+	<div class="sign-in">
+		<h1>𝕊𝕚𝕘𝕟 𝕀𝕟</h1>
+	</div>
+	<div class="login-password-buttons">
+		<div class="login-password-buttons-login-input">
+			<p>Slatty login or email</p>
+			<input type="text" name="" id="login-input">
+		</div>
+		<div class="login-password-buttons-password-input">
+			<p>Password</p>
+			<input type="password" name="" id="password-input">
+		</div>
+		<div class="submit-and-forgot">
+			<button type="submit" id="login-button">Login</button>
+			<a href="">I forgot my password</a>
+		</div>
+	</div>
+	<div class="authorize-button">
+		<p>Don't have an account?<a href="">Sign Up here</a></p>
+	</div>
+</div>

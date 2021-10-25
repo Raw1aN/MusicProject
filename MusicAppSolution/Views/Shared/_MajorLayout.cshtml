@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Slatty</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/major.css"/>
+    <link rel="stylesheet" href="~/css/registration.css"/>
+    <link rel="stylesheet" href="~/css/authorization.css"/>
+</head>
+<body>
+<header>
+	<div class="header">
+		<div class="header-title-label">
+			<h1>
+				<p><a asp-controller="Major" asp-action="Major">𝕊𝕃𝔸𝕋𝕋𝕐</a></p>
+			</h1>
+		</div>
+		<div class="header-authorize-links">
+			<div class="header-authorize-links-sign-up">
+				<a asp-controller="Registration" asp-action="Registration">
+					sign up
+				</a>
+			</div>
+			<div class="header-authorize-links-sign-in">
+				<a asp-controller="Authorization" asp-action="Authorization">
+					sign in
+				</a>
+			</div>
+		</div>
+	</div>
+</header>
+<nav>	
+	<div class="nav">
+		<div class="nav-bar">
+			<div class="nav-novelty">
+				<h2>
+					<p><a>NOVELTY</a>|</p>
+				</h2>
+			</div>
+			<div class="nav-charts">
+				<h2>
+					<p><a>CHARTS </a>|</p>
+				</h2>
+			</div>
+			<div class="nav-lyrics">
+				<h2>
+					<p><a>LYRICS</a>|</p>
+				</h2>
+			</div>
+			<div class="nav-forbes">
+				<h2>
+					<p><a>FORBES</a>|</p>
+				</h2>
+			</div>
+			<div class="nav-about-artists">
+				<h2>
+					<p><a>ABOUT ARTISTS</a>|</p>
+				</h2>
+			</div>
+			<div class="nav-forum">
+				<h2>
+					<p><a>FORUM</a></p>
+				</h2>
+			</div>
+		</div>
+		<div class="nav-search">
+			<input type="search" name="" placeholder="Search lyrics & more">
+		</div>
+	</div>		
+</nav>
+<div class="container">
+	<main role="main" class="pb-3">
+		@RenderBody()
+	</main>
+</div>
+<footer>
+	<div class="footer">
+		<div class="footer-left-side">
+			<div class="footer-description">
+				<h1>
+					Slatty is a collection of hip-hop lyrics and musical knowledge of the genre.
+				</h1>
+			</div>
+			<div class="footer-social-networks-links">
+				<div class="footer-social-networks-links-vkontakte">
+					<a>
+						<img src="https://img.icons8.com/color/48/000000/vk-circled.png"/>
+					</a>
+				</div>
+				<div class="footer-social-networks-links-instagram">
+					<a>
+						<img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
+					</a>
+				</div>
+				<div class="footer-social-networks-links-telegram">
+					<a>
+						<img src="https://img.icons8.com/color/48/000000/telegram-app--v1.png"/>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="left-footer-links">
+			<div class="left-footer-links-about-slatty">
+				<p>
+				<a>
+					About Slatty
+				</a>
+				</p>
+			</div>
+			<div class="left-footer-links-privacy-policy">
+				<p>
+				<a>
+					Privacy Policy
+				</a>
+				</p>
+			</div>
+			<div class="left-footer-links-advertise">
+				<p>
+				<a>
+					Advertise
+				</a>
+				</p>
+			</div>
+			<div class="mini-description" id="mini-description">
+				<p>
+					© Slatty media group. All rights reserved.
+				</p>
+			</div>
+		</div>
+		<div class="right-footer-links">
+			<div class="right-footer-links-copyright-policy">
+				<p>
+				<a>
+					Copyright policy
+				</a>
+				</p>
+			</div>
+			<div class="right-footer-links-contact-us">
+				<p>
+				<a>
+					Contact Us
+				</a>
+				</p>
+			</div>
+			<div class="right-footer-links-sign-in">
+				<p>
+				<a>
+					Sign In
+				</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

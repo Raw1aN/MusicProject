@@ -1,0 +1,35 @@
+@page
+@model MusicAppProject.Views.Registration.Registration
+
+@{
+    Layout = "../Shared/_MajorLayout.cshtml";
+}
+
+<div class="authorize">
+	<div class="sign-up">
+		<h1>𝕊𝕚𝕘𝕟 𝕌𝕡</h1>
+	</div>
+	<div class="nickname-email-password-buttons">
+		<div class="nickname-email-password-buttons-nickname-input">
+			<p>Slatty nickname</p>
+			<input type="text" name="" id="nickname-input">
+		</div>
+		<div class="nickname-email-password-buttons-email-input">
+			<p>Email</p>
+			<input type="text" name="" id="email-input">
+		</div>
+		<div class="nickname-email-password-buttons-password-input">
+			<p>Password</p>
+			<input type="password" name="" id="password-input">
+		</div>
+		<div class="terms-of-service">
+			<p>By clicking “Create Account”, you are indicating that you have read and agree to the<a>Terms Of Service</a></p>
+		</div>
+		<div class="create-and-terms-of-service">
+			<button type="submit" id="create-button">Create account</button>
+		</div>
+	</div>
+	<div class="login-button">
+		<p>Already have an account?<a>Sign In here</a></p>
+	</div>
+</div>

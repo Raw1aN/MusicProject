@@ -47,7 +47,11 @@ namespace MusicAppProject
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints => { endpoints.MapRazorPages(); });
+            app.UseEndpoints(endpoints => { endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Major}/{action=Major}/{id?}"
+                );
+            });
         }
     }
 }

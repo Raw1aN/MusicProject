@@ -1,0 +1,122 @@
+.authorize {
+    position: fixed;
+    top: 90px;
+    left: 45%;
+}
+.nickname-email-password-buttons {
+    border: 1px solid;
+    position: relative;
+    margin-top: 15px;
+    right: 31%;
+    width: 380px;
+    height: 360px;
+    background-color: #FFFF64;
+}
+.nickname-email-password-buttons-nickname-input {
+    position: relative;
+    top: 0px;
+}
+#nickname-input {
+    position: relative;
+    width: 360px;
+    margin-left: 10px;
+}
+.nickname-email-password-buttons-nickname-input p {
+    position: relative;
+    font-family: 'San Francisco';
+    font-size: 16px;
+    font-weight: bold;
+    top: 15px;
+    margin-left: 10px;
+}
+.nickname-email-password-buttons-email-input {
+    position: relative;
+    top: 0px;
+}
+#email-input {
+    position: relative;
+    width: 360px;
+    margin-left: 10px;
+}
+.nickname-email-password-buttons-email-input  p {
+    position: relative;
+    font-family: 'San Francisco';
+    font-size: 16px;
+    font-weight: bold;
+    top: 15px;
+    margin-left: 10px;
+}
+.nickname-email-password-buttons-password-input {
+    position: relative;
+    top: 0px;
+}
+.nickname-email-password-buttons-password-input p {
+    position: relative;
+    font-family: 'San Francisco';
+    font-size: 16px;
+    font-weight: bold;
+    top: 15px;
+    margin-left: 10px;
+}
+#password-input {
+    position: relative;
+    width: 360px;
+    margin-left: 10px;
+}
+.terms-of-service {
+    position: relative;
+    top: 15px;
+    margin-left: 15px;
+}
+.terms-of-service a {
+    text-decoration: none;
+    position: relative;
+    margin-left: 5px;
+    color: #2BB6F6;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'San Francisco';
+}
+.terms-of-service p {
+    position: relative;
+    margin-left: 0px;
+    color: #121212;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'San Francisco';
+}
+.create-and-terms-of-service {
+    position: relative;
+    top: 15px;
+    margin-left: 10px;
+}
+#create-button {
+    background-color: white;
+    border: 1px solid;
+    width: 140px;
+}
+.login-button {
+    position: relative;
+    margin-top: 10px;
+    border: 1px solid;
+    right: 31%;
+    width: 380px;
+    height: 40px;
+    background-color: #FFFF64;
+}
+.login-button p {
+    color: #121212;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'San Francisco';
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.login-button p a {
+    color: #2BB6F6;
+    text-decoration: none;
+    margin-left: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'San Francisco';
+}
