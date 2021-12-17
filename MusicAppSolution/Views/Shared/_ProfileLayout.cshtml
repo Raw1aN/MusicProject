@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="~/css/major.css"/>
     <link rel="stylesheet" href="~/css/registration.css"/>
     <link rel="stylesheet" href="~/css/authorization.css"/>
-    <link rel="stylesheet" href="~/css/profile.css"/>
 </head>
 <body>
 <header>
@@ -19,14 +18,14 @@
 			</h1>
 		</div>
 		<div class="header-authorize-links">
-			<div class="header-authorize-links-sign-up">
-				<a asp-controller="Registration" asp-action="Registration">
-					sign up
-				</a>
-			</div>
+			@* <div class="header-authorize-links-sign-up"> *@
+			@* 	<a asp-controller="Registration" asp-action="Registration"> *@
+			@* 		sign up *@
+			@* 	</a> *@
+			@* </div> *@
 			<div class="header-authorize-links-sign-in">
 				<a asp-controller="Authorization" asp-action="Authorization">
-					sign in
+					logout
 				</a>
 			</div>
 		</div>

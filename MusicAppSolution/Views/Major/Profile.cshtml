@@ -1,0 +1,42 @@
+@page
+@model MusicAppProject.Views.Major.Profile
+
+@{
+    Layout = "_ProfileLayout";
+}
+
+
+@{
+    Layout = "../Shared/_MajorLayout.cshtml";
+}
+
+<div class="authorize">
+	<div class="sign-up">
+		<h1>𝔼𝕕𝕚𝕥 ℙ𝕣𝕠𝕗𝕚𝕝𝕖</h1>
+	</div>
+	<form>
+	<div class="nickname-email-password-buttons">
+		<div class="nickname-email-password-buttons-nickname-input">
+			<p>Change Slatty nickname</p>
+			<input type="text" name="" id="nickname-input">
+		</div>
+		<div class="nickname-email-password-buttons-email-input">
+			<p>Change Password</p>
+			<input type="text" name="" id="email-input" placeholder="New password">
+		</div>
+		<div class="nickname-email-password-buttons-password-input">
+			<p>Confirm Password</p>
+			<input type="password" name="" id="password-input" placeholder="Confirm password">
+		</div>
+		<div class="add-image-label">
+			<a>Add image</a>
+			<input type="file" id="image-input"/>
+		</div>
+		<div class="save-changes-cancel-buttons">
+			<button type="submit" id="save-changes-profile-button">Save changes</button>
+			<button type="submit" id="cancel-profile-button">Cancel</button>
+		</div>
+	</div>
+	</form>
+</div>
+
